@@ -1,0 +1,79 @@
+*{
+    color: white;
+}
+html{
+    font-size: 1px;
+    background-image: url(../images/hd-backgrounds-websites-professional-website-background-images-hd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+body{
+    font-family: 'Vollkorn', serif;
+    font-size: 16rem;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+/* Header section */
+
+header{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.header{
+    border-top: 2rem solid white;
+    border-bottom: 2rem solid white;
+    width: fit-content;
+    font-size: 20rem;
+
+}
+.header-content{
+    margin: auto 100rem;
+}
+
+.header-content li{
+    font-size: 20rem;
+    display: inline-block;
+    margin: 15rem;
+    transition: color .750ms linear,
+    border .750ms linear;
+}
+li:hover{
+    color: lightslategray;
+    text-decoration: underline;
+}
+.enroll{
+    border: 2rem white solid;
+    border-radius: 10rem;
+    padding: 5rem;
+}
+.enroll:hover{
+    border: 2rem solid slategray;
+}
+.social{
+    position: relative;
+    margin-left: 150rem;
+    font-size: 25rem;
+}
+.social i{
+    margin: 10rem;
+    transition: color .750ms linear;
+}
+i:hover{
+    color: lightslategray;
+}
+
+/* intro section */
+
+.intro{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.intro h2{
+    font-size: 30rem;
+}
